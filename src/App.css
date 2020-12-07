@@ -1,0 +1,30 @@
+.container {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.row {
+  margin-bottom:  24px;
+}
+
+#text {
+  border: solid 2px #80bdff;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.title {
+  text-align: center;
+  color: #80bdff;
+  border-bottom: solid 5px #80bdff;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 640px) {
+  #text {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+}
